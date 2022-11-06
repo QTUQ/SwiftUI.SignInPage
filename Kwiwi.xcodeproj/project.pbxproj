@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2648D70F2905B80900F7D4D5 /* AppleAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2648D70E2905B80900F7D4D5 /* AppleAuth.swift */; };
+		26AFAC13290199E500FA5330 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFAC12290199E500FA5330 /* ContentView.swift */; };
+		26AFAC15290199E700FA5330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AFAC14290199E700FA5330 /* Assets.xcassets */; };
+		26AFAC18290199E700FA5330 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AFAC17290199E700FA5330 /* Preview Assets.xcassets */; };
+		26AFAC21290310FB00FA5330 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26AFAC20290310FB00FA5330 /* GoogleService-Info.plist */; };
+		26AFAC242903172000FA5330 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 26AFAC232903172000FA5330 /* FirebaseAuth */; };
+		26AFAC262903172000FA5330 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 26AFAC252903172000FA5330 /* FirebaseFirestore */; };
+		26AFAC292903178B00FA5330 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 26AFAC282903178B00FA5330 /* GoogleSignIn */; };
+		26AFAC2C2903227E00FA5330 /* SignInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFAC2B2903227E00FA5330 /* SignInPage.swift */; };
+		26AFAC322904082C00FA5330 /* KwiwiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFAC312904082C00FA5330 /* KwiwiApp.swift */; };
+		26AFAC34290431B600FA5330 /* GoogleAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFAC33290431B600FA5330 /* GoogleAuth.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2648D70E2905B80900F7D4D5 /* AppleAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleAuth.swift; sourceTree = "<group>"; };
+		26AFAC0D290199E500FA5330 /* Kwiwi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kwiwi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26AFAC12290199E500FA5330 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		26AFAC14290199E700FA5330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26AFAC17290199E700FA5330 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26AFAC20290310FB00FA5330 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		26AFAC2A290317DF00FA5330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		26AFAC2B2903227E00FA5330 /* SignInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPage.swift; sourceTree = "<group>"; };
+		26AFAC2D290400E700FA5330 /* Kwiwi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kwiwi.entitlements; sourceTree = "<group>"; };
+		26AFAC312904082C00FA5330 /* KwiwiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KwiwiApp.swift; sourceTree = "<group>"; };
+		26AFAC33290431B600FA5330 /* GoogleAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAuth.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26AFAC0A290199E500FA5330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26AFAC242903172000FA5330 /* FirebaseAuth in Frameworks */,
+				26AFAC262903172000FA5330 /* FirebaseFirestore in Frameworks */,
+				26AFAC292903178B00FA5330 /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26AFAC04290199E500FA5330 = {
+			isa = PBXGroup;
+			children = (
+				26AFAC0F290199E500FA5330 /* Kwiwi */,
+				26AFAC20290310FB00FA5330 /* GoogleService-Info.plist */,
+				26AFAC0E290199E500FA5330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26AFAC0E290199E500FA5330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26AFAC0D290199E500FA5330 /* Kwiwi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26AFAC0F290199E500FA5330 /* Kwiwi */ = {
+			isa = PBXGroup;
+			children = (
+				26AFAC2D290400E700FA5330 /* Kwiwi.entitlements */,
+				26AFAC2A290317DF00FA5330 /* Info.plist */,
+				26AFAC312904082C00FA5330 /* KwiwiApp.swift */,
+				26AFAC12290199E500FA5330 /* ContentView.swift */,
+				26AFAC2B2903227E00FA5330 /* SignInPage.swift */,
+				26AFAC33290431B600FA5330 /* GoogleAuth.swift */,
+				2648D70E2905B80900F7D4D5 /* AppleAuth.swift */,
+				26AFAC14290199E700FA5330 /* Assets.xcassets */,
+				26AFAC16290199E700FA5330 /* Preview Content */,
+			);
+			path = Kwiwi;
+			sourceTree = "<group>";
+		};
+		26AFAC16290199E700FA5330 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				26AFAC17290199E700FA5330 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26AFAC0C290199E500FA5330 /* Kwiwi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26AFAC1B290199E700FA5330 /* Build configuration list for PBXNativeTarget "Kwiwi" */;
+			buildPhases = (
+				26AFAC09290199E500FA5330 /* Sources */,
+				26AFAC0A290199E500FA5330 /* Frameworks */,
+				26AFAC0B290199E500FA5330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kwiwi;
+			packageProductDependencies = (
+				26AFAC232903172000FA5330 /* FirebaseAuth */,
+				26AFAC252903172000FA5330 /* FirebaseFirestore */,
+				26AFAC282903178B00FA5330 /* GoogleSignIn */,
+			);
+			productName = Kwiwi;
+			productReference = 26AFAC0D290199E500FA5330 /* Kwiwi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26AFAC05290199E500FA5330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					26AFAC0C290199E500FA5330 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 26AFAC08290199E500FA5330 /* Build configuration list for PBXProject "Kwiwi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26AFAC04290199E500FA5330;
+			packageReferences = (
+				26AFAC222903172000FA5330 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				26AFAC272903178B00FA5330 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				26AFAC2E2904044200FA5330 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
+			productRefGroup = 26AFAC0E290199E500FA5330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26AFAC0C290199E500FA5330 /* Kwiwi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26AFAC0B290199E500FA5330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26AFAC18290199E700FA5330 /* Preview Assets.xcassets in Resources */,
+				26AFAC15290199E700FA5330 /* Assets.xcassets in Resources */,
+				26AFAC21290310FB00FA5330 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26AFAC09290199E500FA5330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26AFAC322904082C00FA5330 /* KwiwiApp.swift in Sources */,
+				26AFAC34290431B600FA5330 /* GoogleAuth.swift in Sources */,
+				26AFAC2C2903227E00FA5330 /* SignInPage.swift in Sources */,
+				26AFAC13290199E500FA5330 /* ContentView.swift in Sources */,
+				2648D70F2905B80900F7D4D5 /* AppleAuth.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		26AFAC19290199E700FA5330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26AFAC1A290199E700FA5330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26AFAC1C290199E700FA5330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Kwiwi/Kwiwi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kwiwi/Preview Content\"";
+				DEVELOPMENT_TEAM = YP79MC6RDL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kwiwi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qn.Kwiwi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26AFAC1D290199E700FA5330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Kwiwi/Kwiwi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kwiwi/Preview Content\"";
+				DEVELOPMENT_TEAM = YP79MC6RDL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kwiwi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qn.Kwiwi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26AFAC08290199E500FA5330 /* Build configuration list for PBXProject "Kwiwi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26AFAC19290199E700FA5330 /* Debug */,
+				26AFAC1A290199E700FA5330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26AFAC1B290199E700FA5330 /* Build configuration list for PBXNativeTarget "Kwiwi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26AFAC1C290199E700FA5330 /* Debug */,
+				26AFAC1D290199E700FA5330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		26AFAC222903172000FA5330 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		26AFAC272903178B00FA5330 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		26AFAC2E2904044200FA5330 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		26AFAC232903172000FA5330 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26AFAC222903172000FA5330 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		26AFAC252903172000FA5330 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26AFAC222903172000FA5330 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		26AFAC282903178B00FA5330 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26AFAC272903178B00FA5330 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 26AFAC05290199E500FA5330 /* Project object */;
+}
